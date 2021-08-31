@@ -10,7 +10,7 @@ public class DegiskenKapsami {
         sayi=6+78;
     }
     public void method2(){
-
+        sayi=567;
     }
 
 
