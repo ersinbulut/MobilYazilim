@@ -1,6 +1,4 @@
-# MobilYazilim
-Degiskenler
-
+# MobilYazilim UDEMY KASIM ADALAN JAVA İLE ANDROİD PROGRAMLAMA
 
 Eğitim içeriği konu başlıkları ;
 
