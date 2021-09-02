@@ -1,4 +1,6 @@
-# MobilYazilim UDEMY KASIM ADALAN JAVA İLE ANDROİD PROGRAMLAMA
+# MobilYazilim
+UDEMY (KASIM ADALAN) 
+Android Mobil Uygulama Geliştirme Eğitimi | Java | 2021
 
 Eğitim içeriği konu başlıkları ;
 
