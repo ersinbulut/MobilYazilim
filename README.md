@@ -1,0 +1,2 @@
+# MobilYazilim
+Degiskenler
