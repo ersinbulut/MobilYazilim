@@ -49,5 +49,13 @@ public class OdevlerSinifi {
         return sonuc;
     }
 
+    public void dilekceOlustur(String ogrenciAdi,int okulNo,int izinMiktari,String tarih,String veliAdi){
+        String dilekce ="\t\tBursa Anadolu Lisesi Müdürlüğüne,\n"+ogrenciAdi
+                +" adlı "+okulNo+" nolu öğrencinin "+izinMiktari
+                +" gün izinli olmasını rica ediyorum.\n"+"Tarih : "+tarih+"\n"
+                +"Veli Ad-Soyad : "+veliAdi;
+        System.out.println(dilekce);
+    }
+
 
 }
