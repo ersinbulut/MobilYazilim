@@ -69,5 +69,11 @@ public class OdevlerSinifi {
         return maas;
     }
 
+    public void internetUcretiHesapla(int gb){
+        int fazlaGB=gb-50;
+        int faturaMiktari = 100 + (fazlaGB * 4);
+        System.out.println("Fatura: "+faturaMiktari+" tl");
+    }
+
 
 }
