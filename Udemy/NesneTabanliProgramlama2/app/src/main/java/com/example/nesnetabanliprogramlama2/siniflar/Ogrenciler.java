@@ -1,7 +1,7 @@
 package com.example.nesnetabanliprogramlama2.siniflar;
 
 public class Ogrenciler {
-    public String isim; //access modifier yoksa bu protected dir
+    public String isim; //access modifier yoksa bu protected dir.
     public int okulNo;
     //private: sadece kendi bulunduğu sınıftan erişilebilir.
     //protected: sadece bulunduğu paketten erişilebilir.
