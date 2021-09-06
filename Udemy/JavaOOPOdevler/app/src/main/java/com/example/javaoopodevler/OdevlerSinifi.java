@@ -26,5 +26,22 @@ public class OdevlerSinifi {
         return sonuc;
     }
 
+    public void harfSayisiBul(String kelime,char harf){
+        int boyut=kelime.length(); //araba
+
+        char [] harfler = new char[boyut];
+
+        for (int i = 0; i<boyut; i++){
+            harfler[i] = kelime.charAt(i); // 0-a , 1 - r, 2 - a, 3 -a
+        }
+        int sayac = 0;
+        for (int i = 0; i<boyut; i++){
+            if (harfler[i] == harf){ // a
+                sayac++;
+            }
+        }
+        System.out.println("Harf sayısı : "+sayac);
+    }
+
 
 }
