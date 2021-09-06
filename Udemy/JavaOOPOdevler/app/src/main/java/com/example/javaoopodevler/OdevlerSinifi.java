@@ -57,5 +57,17 @@ public class OdevlerSinifi {
         System.out.println(dilekce);
     }
 
+    public int maasHesapla(int gun){
+        int calismaSaati = gun*8;
+
+        int mesaiSaati = calismaSaati -160;
+
+        int mesaiUcret = mesaiSaati * 10;
+
+        int maas = 1750 + mesaiUcret;
+
+        return maas;
+    }
+
 
 }
