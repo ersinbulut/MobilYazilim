@@ -11,6 +11,6 @@ public class Bsinifi {
 
     ArrayList<String> s = new ArrayList<>();
 
-    Scanner t = new Scanner(System.in);
+    Scanner tarayici = new Scanner(System.in);
 
 }
