@@ -43,5 +43,11 @@ public class OdevlerSinifi {
         System.out.println("Harf sayısı : "+sayac);
     }
 
+    public int icAciToplami(int kenarSayisi){
+        int sonuc = (kenarSayisi - 2) * 180;
+
+        return sonuc;
+    }
+
 
 }
