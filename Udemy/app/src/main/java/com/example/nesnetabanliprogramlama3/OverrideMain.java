@@ -28,5 +28,8 @@ public class OverrideMain {
 
         hayvan.sesCikar();
 
+        //alt sınıftaki bir nesneyi üst sınıfa dönüştürmek istersek upcasting denir
+        //tam tersi durumda downcasting denir
+
     }
 }
