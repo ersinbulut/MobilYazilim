@@ -6,11 +6,15 @@ public class Arac {// extends Object
     private  String vitesTipi;
 
     public Arac() {
+        super();
+        System.out.println("Araç boş constructor çalıştı");
     }
 
     public Arac(String renk, String vitesTipi) {
+        super();
         this.renk = renk;
         this.vitesTipi = vitesTipi;
+        System.out.println("Araç dolu constructor çalıştı");
     }
 
     public String getRenk() {

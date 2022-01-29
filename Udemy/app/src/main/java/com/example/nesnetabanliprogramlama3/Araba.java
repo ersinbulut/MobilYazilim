@@ -4,10 +4,14 @@ public class Araba extends Arac{
     private String kasaTipi;
 
     public Araba() {
+        super();
+        System.out.println("Araba boş constructor çalıştı");
     }
 
     public Araba(String kasaTipi) {
+        super("Beyaz","Otomatik");
         this.kasaTipi = kasaTipi;
+        System.out.println("Araba dolu constructor çalıştı");
     }
 
     public String getKasaTipi() {

@@ -3,7 +3,7 @@ package com.example.nesnetabanliprogramlama3;
 public class KalıtımMain {
     public static void main(String args[]){
 
-        Araba araba=new Araba();
+       /* Araba araba=new Araba();
 
         araba.setKasaTipi("Sedan");
         araba.setRenk("Kırmızı");
@@ -16,6 +16,10 @@ public class KalıtımMain {
         subaru.setRenk("Mavi");
         subaru.setVitesTipi("Manuel");
 
-        System.out.println(subaru.getRenk());
+        System.out.println(subaru.getRenk());*/
+
+        Subaru subaru = new Subaru("1.8V");
+
+        System.out.println(subaru.getKasaTipi());
     }
 }
